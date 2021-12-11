@@ -1,12 +1,10 @@
 <script setup>
-  import HelloWord from './components/HelloWorld.vue'
-
-  import Footer from './components/footer.vue'
+  import HelloWorld from './components/HelloWorld.vue'
+  import Footer from './components/footer.vue'  
 </script>
 
-<template> 
-
-  <HelloWord />
+<template>
+  <HelloWorld />
   <Footer />
 </template>
 

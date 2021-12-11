@@ -7,7 +7,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.23"
+    "axios": "^0.24.0",
+    "vue": "^3.2.23",
+    "vue-router": "^3.5.3"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.10.2",
