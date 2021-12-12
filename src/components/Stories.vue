@@ -21,7 +21,7 @@ export default {
 </script>
 
 <template>
-  <div class="bg-black text-white p-4 h-screen">
+  <div class="p-4">
     <h1 class="font-bold text-4xl my-4">Stories</h1>
     
     <div v-if="item">

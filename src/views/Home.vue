@@ -1,21 +1,25 @@
 <template>
   <div class="home mt-8">
 
-    <HelloWorld />
+    <JokeAPI />
     <Stories />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '../components/HelloWorld.vue'
+import JokeAPI from '../components/JokeAPI.vue'
 import Stories from '../components/Stories.vue'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld,
+    JokeAPI,
     Stories
   }
 }
 </script>
+
+<style>
+
+</style>
