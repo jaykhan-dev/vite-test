@@ -1,19 +1,19 @@
 <template>
   <div class="about mt-8">
 
-
+    <StoriesAPI />
 
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
+import StoriesAPI from '../components/StoriesAPI.vue'
 
 
 export default {
-  name: 'About',
+  name: 'Stories',
   components: {
-    
+    StoriesAPI
   }
 }
 </script>

@@ -1,12 +1,10 @@
 <template>
-
-    <div class="text-sm bg-black text-white fixed top-20 
-            left-4 w-12 grid place-items-center rounded-full p-4 
-            text-2xl font-bold">
-            {{allTasks}} 
-    </div>
-    <div class="p-4 grid lg:grid-cols-3 mt-36">
-        <div class="">
+<div class="flex justify-center">
+    <div class="p-4 grid lg:grid-cols-3 lg:w-3/4 md:grid-cols-2 sm:w-full mt-36 items-start">
+        <div class="lg:sticky md:sticky top-20">
+            <div class="text-sm bg-black text-white w-12 grid place-items-center rounded-full p-4 text-2xl font-bold">
+                {{allTasks}} 
+            </div>
             <h1 class="font-bold text-4xl">{{title}}</h1>
 
             <div>
@@ -40,7 +38,7 @@
             </div>
         </div>       
         
-        <div class="col-span-2">
+        <div class="lg:col-span-2">
             <h1 class="font-bold lg:text-8xl text-4xl mt-8">{{newStrategy}}</h1>
             <ul class="mt-8 text-2xl font-bold">
                 <li 
@@ -61,6 +59,8 @@
         </div>
         
     </div>
+</div>
+    
 </template>
 
 <script>

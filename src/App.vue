@@ -4,10 +4,19 @@ import Footer from './components/footer.vue'
 
 <template>
 <div class="flex justify-center">
-  <div id="nav" class="font-bold p-4 fixed top-0 lg:w-3/4">
-      <router-link to="/" class="m-4 hover:text-green-600 duration-300">Home</router-link>
-      <router-link to="/about" class="m-4 hover:text-green-600 duration-300">About</router-link>
-      <router-link to="/strategy" class="m-4 hover:text-green-600 duration-300">Strategy</router-link>
+  
+  <div id="nav" class="uppercase font-bold p-2 fixed top-0 lg:w-3/4 md:w-full sm:w-full flex justify-between">
+      <router-link to="/" class="m-4 hover:text-green-600 duration-300">
+        <div class="text-2xl">
+          <i class="fas fa-dragon"></i>
+        </div>
+      </router-link>
+      <div class="p-2">
+        
+        <router-link to="/stories" class="m-4 hover:text-green-600 duration-300">Stories</router-link>
+        <router-link to="/strategy" class="m-4 hover:text-green-600 duration-300">Strategy</router-link>
+      </div>
+      
   </div>
 </div>
   
