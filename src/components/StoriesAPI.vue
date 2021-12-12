@@ -1,6 +1,6 @@
 <template>
 
-    <h1 class="font-bold text-4xl my-4 text-center">Strategies found in Stories</h1>
+    <h1 class="font-bold text-4xl my-4 text-center mt-20">Strategies found in Stories</h1>
     
     <div class="flex justify-center">
         
