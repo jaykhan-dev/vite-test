@@ -1,22 +1,23 @@
 <template>
-
-    <h1 class="font-bold text-4xl my-4 text-center mt-20">Strategic Thinking</h1>
+    <div class="">
+        <h1 class="font-bold text-4xl my-4 text-center">Strategic Thinking</h1>
+    </div>
+    
     
     <div class="flex justify-center">
         
-          <div class="lg:w-3/4 grid lg:grid-cols-4 grid-cols-1 gap-2">
+          <div class="lg:w-3/4 grid lg:grid-cols-4 grid-cols-1 gap-2 p-4">
             <div 
-            v-for="item in stories" 
+            v-for="item in strategies" 
             class="p-4 hover:text-blue-800 duration-300"
             :key='item.id'>
-              <router-link :to="/strategies/+ item.id">
-                <img v-if="item.story_image_thumbnail" 
-                :src="item.story_image_thumbnail.url"
-                :width="item.story_image_thumbnail.width"
-                :height="item.story_image_thumbnail.height">
-                <h2 class="text-4xl font-bold">{{ item.title }}</h2>
-                <div v-html="item.author" class="text-2xl"></div>
-                <div v-html="item.blurb"></div>                  
+              <router-link :to="/strategytopic/+ item.id"
+              class="">
+                
+                <h2 class="text-xl font-bold border-2 border-gray-900 dark:border-gray-800 text-center p-4 rounded">
+                    {{ item.title }}
+                </h2>                
+                                  
               </router-link>
           </div>
 
@@ -40,8 +41,8 @@ export default {
   },
   mounted() {
     axios
-    .get(API_ROOT + '?type=stories.StoryPage&fields=genre,blurb,content,author,story_image_thumbnail')
-    .then(response => (this.stories = response.data.items))
+    .get(API_ROOT + '?type=strategies.StrategyPage&fields=title,strategy,tactics_stream')
+    .then(response => (this.strategies = response.data.items))
   }
 }
 </script>

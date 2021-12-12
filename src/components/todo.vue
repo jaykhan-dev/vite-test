@@ -1,6 +1,6 @@
 <template>
-<div class="flex justify-center mb-20 dark:bg-black dark:text-white dark:duration-300">
-    <div class="p-4 grid lg:grid-cols-3 lg:w-3/4 md:grid-cols-2 sm:w-full mt-20 items-start">
+<div class="flex justify-center dark:bg-black dark:text-white dark:duration-300">
+    <div class="p-4 grid lg:grid-cols-3 lg:w-3/4 md:grid-cols-2 sm:w-full mt-20 items-start border-t border-gray-400">
         <div class="lg:sticky md:sticky top-20">
             <div class="text-sm p-4 text-2xl font-bold">
                 {{allTasks}} 

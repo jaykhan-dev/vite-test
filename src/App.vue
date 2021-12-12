@@ -3,11 +3,8 @@
   <button
     type="button"
       @click="isDark = !isDark"
-      class="fixed bottom-2 left-2 w-8 z-10"
-    >
-
-        <i class="fas fa-adjust text-blue-500 text-4xl z-100"></i>
-
+      class="fixed bottom-2 left-2 w-8 z-10">
+        <i class="fas fa-adjust text-white text-4xl z-100 hover:text-black duration-300"></i>
     </button>
   <Navigation />
   <Footer />
