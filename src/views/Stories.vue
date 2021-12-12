@@ -3,6 +3,7 @@
 
     <StoriesAPI />
 
+
   </div>
 </template>
 
@@ -13,7 +14,8 @@ import StoriesAPI from '../components/StoriesAPI.vue'
 export default {
   name: 'Stories',
   components: {
-    StoriesAPI
+    StoriesAPI,
+
   }
 }
 </script>
