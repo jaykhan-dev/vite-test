@@ -1,5 +1,5 @@
 <template>
-    <div class="grid grid-cols-1 place-items-center mt-20 p-4">
+    <div class="grid grid-cols-1 place-items-center p-4 dark:bg-black dark:text-white dark:duration-300">
           <h2 class="text-center text-6xl font-bold">{{ item.title }}</h2>
             <span 
                 v-for="block in item.content" 

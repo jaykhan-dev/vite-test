@@ -1,31 +1,32 @@
 <template>
-<div class="flex justify-center">
-    <div class="p-4 grid lg:grid-cols-3 lg:w-3/4 md:grid-cols-2 sm:w-full mt-36 items-start">
+<div class="flex justify-center mb-20 dark:bg-black dark:text-white dark:duration-300">
+    <div class="p-4 grid lg:grid-cols-3 lg:w-3/4 md:grid-cols-2 sm:w-full mt-20 items-start">
         <div class="lg:sticky md:sticky top-20">
-            <div class="text-sm bg-black text-white w-12 grid place-items-center rounded-full p-4 text-2xl font-bold">
+            <div class="text-sm p-4 text-2xl font-bold">
                 {{allTasks}} 
             </div>
             <h1 class="font-bold text-4xl">{{title}}</h1>
 
             <div>
                 <h2 class="font-bold text-2xl mt-4">Add Strategy</h2>
-                <input 
+                <textarea 
                 type="text"
                 v-model="newStrategy"
                 placeholder="new strategy"
-                class="p-4 rounded border-2 border-black hover:bg-sky-200 duration-300 mt-2"
+                class="text-black p-4 rounded lg:w-56 md:w-3/4 w-full shadow-2xl h-20 border-2 border-black hover:bg-sky-200 duration-300 mt-2"
                 >
+                </textarea>
 
             </div>
 
-            <div>
+            <div class="">
                 <h2 class="font-bold text-2xl mt-4">Add tactics</h2>
                 <input 
                 type="text"
                 v-model="newTask"
                 @keyup.enter="addTask"
                 placeholder="new tactic"
-                class="p-4 rounded border-2 border-black hover:bg-sky-200 duration-300"
+                class="p-4 lg:w-56 md:w-3/4 w-full rounded border-2 border-black hover:bg-sky-200 duration-300 text-black"
                 >
 
                 <button 
@@ -70,7 +71,7 @@
                 title: 'Make Plan',
                 newTask: '',
                 newStrategy: '',
-                tasks: []
+                tasks: [],
             }
         },
         methods: {

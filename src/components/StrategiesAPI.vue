@@ -1,15 +1,15 @@
 <template>
-<div class="dark:bg-black dark:text-white dark:duration-300">
-  <h1 class="font-bold text-4xl my-4 text-center">Strategists</h1>
+
+    <h1 class="font-bold text-4xl my-4 text-center mt-20">Strategic Thinking</h1>
     
-  <div class="flex justify-center">
+    <div class="flex justify-center">
         
           <div class="lg:w-3/4 grid lg:grid-cols-4 grid-cols-1 gap-2">
             <div 
             v-for="item in stories" 
             class="p-4 hover:text-blue-800 duration-300"
             :key='item.id'>
-              <router-link :to="/stories/+ item.id">
+              <router-link :to="/strategies/+ item.id">
                 <img v-if="item.story_image_thumbnail" 
                 :src="item.story_image_thumbnail.url"
                 :width="item.story_image_thumbnail.width"
@@ -23,8 +23,6 @@
           <router-view></router-view> 
         </div> 
   </div>
-</div>
-  
 </template>
 
 <script>
@@ -33,12 +31,12 @@ import axios from 'axios'
 const API_ROOT = 'https://jaykhan.live/api/v2/pages/'
 
 export default {
-  name: 'Stories',
+  name: 'Strategies',
   props: {
     msg: String
   },
   data: function () {
-    return { stories: [] }
+    return { strategies: [] }
   },
   mounted() {
     axios

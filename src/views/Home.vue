@@ -1,8 +1,6 @@
 <template>
-  <div class="home mt-8">
-
-    <JokeAPI />
-
+  <div class="" :class="isDark ? 'dark' : ''">
+    <JokeAPI />    
   </div>
 </template>
 
@@ -14,8 +12,7 @@ export default {
   name: 'Home',
   components: {
     JokeAPI,
-
-  }
+  }  
 }
 </script>
 
