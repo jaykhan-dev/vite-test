@@ -1,10 +1,14 @@
 <template>
-<div class="dark:bg-black dark:text-white dark:duration-300">
-  <h1 class="font-bold text-4xl my-4 text-center">Strategists</h1>
+<div class="dark:bg-black dark:text-white dark:duration-300 ">
+
+  <div class="">
+    <h1 class="font-bold text-4xl my-4 text-center">Character Strategies</h1>
+  </div>
+  
     
   <div class="flex justify-center">
         
-          <div class="lg:w-3/4 grid lg:grid-cols-4 grid-cols-1 gap-2">
+          <div class="lg:w-3/4 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-2">
             <div 
             v-for="item in stories" 
             class="p-4 hover:text-blue-800 duration-300"

@@ -1,17 +1,22 @@
 <template>
   <div class="" :class="isDark ? 'dark' : ''">
-    <JokeAPI />    
+   <Hero />
+   <Dapps />
+   <Dappcategory />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import JokeAPI from '../components/JokeAPI.vue'
+import Hero from '../components/hero.vue'
+import Dapps from '../components/dapps.vue'
+import Dappcategory from '../components/dappcategory.vue'
 
 export default {
   name: 'Home',
   components: {
-    JokeAPI,
+    Hero,
+    Dapps,
+    Dappcategory
   }  
 }
 </script>

@@ -4,7 +4,7 @@
         <h1 class="text-center text-6xl font-bold mb-20">{{item.title}}</h1>
     </div>
     <div class="grid place-items-center justify-center mb-20 lg:w-3/4">
-        <div v-html="item.strategy" class="mt-2 w-1/2 font-bold text-4xl my-8 text-green-600"></div>
+        <div v-html="item.strategy" class="mt-2 lg:w-1/2 md:w-full sm:w-full font-bold text-4xl my-8 text-green-600"></div>
         <div 
             v-for="block in item.tactics_stream" 
             class="lg:w-1/2 md:w-full sm:w-full"

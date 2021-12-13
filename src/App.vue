@@ -4,7 +4,7 @@
     type="button"
       @click="isDark = !isDark"
       class="fixed bottom-2 left-2 w-8 z-10">
-        <i class="fas fa-adjust text-white text-4xl z-100 hover:text-black duration-300"></i>
+        <i class="fas fa-adjust text-sky-500 shadow-2xl text-4xl z-100 hover:text-sky-500 duration-300"></i>
     </button>
   <Navigation />
   <Footer />
@@ -30,5 +30,7 @@ export default {
 }
 </script>
 <style>
-
+* {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 </style>
