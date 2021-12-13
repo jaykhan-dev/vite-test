@@ -38,14 +38,8 @@
 </template>
 
 <script>
-import Slide from 'vue-burger-menu'
+
 export default {
-  props: {
-    isOpen: {
-      type: Boolean,
-      required: false
-    }
-  },
     data() {
       return {
         isDark: true
