@@ -1,5 +1,5 @@
 <template>
-<div class="flex justify-center dark:bg-black dark:text-white dark:duration-300">
+<div class="flex justify-center dark:bg-black dark:text-white dark:duration-300 py-20">
     <div class="lg:w-3/4 grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1">
         <div>
             <h1 class="font-bold uppercase mb-4 text-sky-600">DApps</h1>
@@ -31,7 +31,7 @@
             <h1 class="font-bold uppercase mb-4 text-sky-600">Company</h1>
             <ul class="text-sm uppercase">
                 <li class="my-4 hover:text-sky-500">About</li>
-                
+                <li class="my-4 hover:text-sky-500">Blog</li>
                 <li class="my-4 hover:text-sky-500">Contact</li>                
             </ul>
         </div>
@@ -47,6 +47,7 @@
                 <i class="fab fa-github mx-2 text-4xl hover:text-sky-500"></i>
                 <i class="fab fa-discord mx-2 text-4xl hover:text-sky-500"></i>
                 <i class="fab fa-youtube mx-2 text-4xl hover:text-red-600"></i>
+                <i class="fab fa-instagram mx-2 text-4xl hover:text-red-600"></i>
             </div>
             
         </div>

@@ -1,12 +1,13 @@
 <template>
 <div :class="isDark ? 'dark' : ''">
   <div class="h-8 bg-sky-500 fixed top-0 w-full flex justify-center items-center">
-    <p class="text-center uppercase font-bold mx-4 text-white">Prototype</p>
+    <p class="text-center uppercase font-bold mx-4">Prototype</p>
     <button
     type="button"
       @click="isDark = !isDark"
       class="">
-        <i class="fas fa-adjust shadow-2xl text-2xl text-white z-100 hover:text-black duration-300"></i>
+        <i class="fas fa-yin-yang shadow-2xl text-2xl z-100 hover:text-white duration-300"></i>
+
     </button>
   </div>
  

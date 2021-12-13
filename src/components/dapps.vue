@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center dark:bg-black dark:text-white dark:duration-300 py-20">
+    <div class="flex justify-center dark:bg-black dark:text-white dark:duration-300 py-20" id="dapp-bg">
         <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 p-4">
             <div class="">
                 <p class="uppercase my-8">Decentralized Applications</p>
@@ -12,12 +12,24 @@
                 </div>
             </div>
             <div class="text-8xl flex justify-center">
-                <img src="" alt="" width="300" height="250">
+                <img src="../assets/vision-gray.png" alt="" width="400" height="250" id="dapp-img">
             </div>
         </div>
     </div>
 </template>
 
 <style>
+/*
+#dapp-bg {
+    background: url('https://images.unsplash.com/photo-1534447677768-be436bb09401?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1194&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 
+}
+
+#dapp-img img {
+    opacity: 0.4;
+}*/
 </style>

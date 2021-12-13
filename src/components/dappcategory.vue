@@ -3,7 +3,7 @@
         <div class="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 place-items-center">
             <div class="grid place-items-center">
                 <img 
-                src="" 
+                src="../assets/enso-zen.png" 
                 alt=""
                 class=""
                 width="300"
@@ -15,9 +15,9 @@
                 <p class="text-2xl my-8">Dapps allow for more autonomy and control <br />
                 over your digital assets. Security is ofcourse <br />
                 a major concern and we take it seriously.</p>
-                <div class="grid lg:grid-cols-2 sm:grid-cols-1 place-items-center">
-                    <div>
-                        <div class="">
+                <div class="grid lg:grid-cols-2 sm:grid-cols-1">
+                    <div class="p-4 w-3/4">
+                        <div class="border border-gray-600 rounded-lg w-1/4 flex justify-center p-4">
                             <i class="fas fa-gamepad text-4xl text-sky-500"></i>
                         </div>
                         <h1 class="font-bold text-2xl mt-4">Games</h1>
@@ -25,17 +25,17 @@
                         you own digital assets?  Imagine making money<br />
                         or trading them in-game for real currency. </p>
                     </div>
-                    <div>
-                        <div class="">
+                    <div class="p-4 w-3/4">
+                        <div class="border border-gray-600 rounded-lg w-1/4 flex justify-center p-4">
                             <i class="fas fa-palette text-4xl text-sky-500"></i>
                         </div>
                         <h1 class="font-bold text-2xl mt-4">Digital Art and Music</h1>
                         <p class="mb-8 mt-4">NFT's are unique pieces of digital works <br />
-                        that can be traded with other users.  Earning royalties <br />
-                        is revolutionizing how artists get paid directly.</p>
+                        that can be traded with other users. 
+                        get paid directly.</p>
                     </div>
-                    <div>
-                        <div class="">
+                    <div class="p-4 w-3/4">
+                        <div class="border border-gray-600 rounded-lg w-1/4 flex justify-center p-4">
                             <i class="fas fa-file-invoice-dollar text-4xl text-sky-500"></i>
                         </div>
                         <h1 class="font-bold text-2xl mt-4">Finance</h1>
@@ -44,8 +44,8 @@
                         Earning rewards is part of the benefits of holding <br />
                         crypto in your wallets.</p>
                     </div>
-                    <div>
-                        <div class="">
+                    <div class="p-4 w-3/4">
+                        <div class="border border-gray-600 rounded-lg w-1/4 flex justify-center p-4">
                             <i class="fas fa-digital-tachograph text-4xl text-sky-500"></i>
                         </div>
                         <h1 class="font-bold text-2xl mt-4">Technology</h1>
