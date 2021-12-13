@@ -1,6 +1,6 @@
 <template>
     <div class="flex justify-center dark:bg-black dark:text-white dark:duration-300 py-20" id="dapp-bg">
-        <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 p-4">
+        <div class="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 p-4">
             <div class="">
                 <p class="uppercase my-8">Decentralized Applications</p>
                 <h1 class="text-6xl font-bold my-8">User centric design</h1>
