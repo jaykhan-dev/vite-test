@@ -1,11 +1,15 @@
 <template>
 <div :class="isDark ? 'dark' : ''">
-  <button
+  <div class="h-8 bg-sky-500 fixed top-0 w-full flex justify-center items-center">
+    <p class="text-center uppercase font-bold mx-4 text-white">Prototype</p>
+    <button
     type="button"
       @click="isDark = !isDark"
-      class="fixed bottom-2 left-2 w-8 z-10">
-        <i class="fas fa-adjust text-sky-500 shadow-2xl text-4xl z-100 hover:text-sky-500 duration-300"></i>
+      class="">
+        <i class="fas fa-adjust shadow-2xl text-2xl text-white z-100 hover:text-black duration-300"></i>
     </button>
+  </div>
+ 
   <Navigation />
   <Footer />
 </div>

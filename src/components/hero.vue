@@ -9,7 +9,11 @@
         
     </div>
     <div class="grid place-items-center dark:bg-black">
-        <img src="../assets/melange-apps-logo-gray.png" class="" alt="">
+        <img 
+            src="../assets/melange-apps-logo-gray.png" 
+            class="" 
+            alt=""
+            width="300">
     </div>
 </template>
 <script>

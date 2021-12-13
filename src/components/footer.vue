@@ -24,21 +24,21 @@
             <ul class="text-sm uppercase">
                 <li class="my-4 hover:text-sky-500">JavaScript</li>
                 <li class="my-4 hover:text-sky-500">Python</li>
-                <li class="my-4 hover:text-sky-500">GO</li>                
+                               
             </ul>
         </div>
         <div>
             <h1 class="font-bold uppercase mb-4 text-sky-600">Company</h1>
             <ul class="text-sm uppercase">
                 <li class="my-4 hover:text-sky-500">About</li>
-                <li class="my-4 hover:text-sky-500">Hire</li>
+                
                 <li class="my-4 hover:text-sky-500">Contact</li>                
             </ul>
         </div>
         <div>
             <div class="flex">
                 <input type="text"
-                class="border border-gray-200 p-4 rounded-l-full"
+                class="border border-gray-300 p-4 rounded-l-full"
                 placeholder="Newsletter">
                 <div class="p-4 grid place-items-center border border-gray-500"><i class="fas fa-arrow-right"></i></div>
             </div>
@@ -57,7 +57,7 @@
 
 <div class="grid place-items-center text-center p-4 dark:bg-black dark:text-white dark:duration-300">
     <p>©2021 Melange Labs, All rights reserved | Personal Data and Privacy Policies</p>
-    <h1 class="p-2 my-8 border border-gray-200 rounded-full lg:w-1/5 md:w-1/2 w-full">We use cookies in accordance with GDPR</h1>
+    <h1 class="p-2 my-8 border border-gray-300 rounded-full lg:w-1/5 md:w-1/2 w-full">We use cookies in accordance with GDPR</h1>
 </div>
     
 </template>
