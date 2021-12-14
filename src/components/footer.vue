@@ -1,6 +1,6 @@
 <template>
 <div class="flex justify-center dark:bg-black dark:text-white dark:duration-300 py-20">
-    <div class="lg:w-3/4 grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1">
+    <div class="lg:w-3/4 w-full p-4 grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1">
         <div>
             <h1 class="font-bold uppercase mb-4 text-sky-600">DApps</h1>
             <ul class="text-sm uppercase">

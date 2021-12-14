@@ -11,7 +11,7 @@
                     the need to go through a third party.  This gives the <br />
                     owners full control over how they conduct business.</p>
                 </div>
-                <div class="grid place-items-center" id="smart-contract-bg">
+                <div class="grid place-items-center py-8" id="smart-contract-bg">
                     <img 
                         src="../assets/smart-contract.png" 
                         alt=""
