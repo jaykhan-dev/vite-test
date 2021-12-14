@@ -36,7 +36,7 @@
 <script>
 import axios from 'axios'
 
-const API_ROOT = 'https://jaykhan.live/api/v2/pages/'
+const API_ROOT = 'https://khanquest.herokuapp.com/api/v2/pages/'
 
 export default {
   name: 'Blog',
