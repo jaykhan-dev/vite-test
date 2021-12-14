@@ -4,13 +4,18 @@ import Story from '../components/Story.vue'
 import Home from '../views/Home.vue'
 import Strategy from '../views/Strategy.vue'
 import StrategyTopic from '../components/StrategyTopic.vue'
+import Blog from '../views/Blog.vue'
+import BlogPage from '../components/BlogPage.vue'
+
 
 const routes = [
     { path: '/', name: 'Home', component: Home},
     { path: '/stories', name: 'Stories', component: Stories},
     { path: '/stories/:id', name: 'Story', component: Story},
     { path: '/strategy', name: 'Strategy', component: Strategy },
-    { path: '/strategytopic/:id', name: 'StrategyTopic', component: StrategyTopic }
+    { path: '/strategytopic/:id', name: 'StrategyTopic', component: StrategyTopic },
+    { path: '/blog', name: 'Blog', component: Blog},
+    { path: '/blog/:id', name: 'BlogPage', component: BlogPage}
 ]
 
 const router = createRouter({

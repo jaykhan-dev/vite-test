@@ -8,7 +8,7 @@
         </div>
         
     </div>
-    <div class="grid place-items-center dark:bg-black py-20">
+    <div class="grid place-items-center dark:bg-black dark:duration-300 py-20">
         <img 
             src="../assets/melange-apps-logo-gray.png" 
             class="" 

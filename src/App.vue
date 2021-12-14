@@ -7,11 +7,8 @@
       @click="isDark = !isDark"
       class="">
         <i class="fas fa-yin-yang shadow-2xl text-2xl z-100 hover:text-white duration-300"></i>
-
     </button>
-    <div v-for="(value, key) in crypto" :key='key'><b>BITCOIN:</b>{{value}}</div>
-
-    
+    <div v-for="(value, key) in crypto" :key='key'><b>BITCOIN:</b>{{value}}</div>    
   </div>
  
   <Navigation />
@@ -46,7 +43,12 @@ export default {
 }
 </script>
 <style>
-* {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Questrial&display=swap');
+h1 {
+  font-family: 'Questrial', sans-serif;
 }
+p {
+font-family: 'Jost', sans-serif;
+}
+
 </style>

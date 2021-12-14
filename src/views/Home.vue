@@ -1,6 +1,5 @@
 <template>
   <div class="" :class="isDark ? 'dark' : ''">
-
    <Hero />
    <Dapps />
    <Dappcategory />
@@ -14,14 +13,14 @@ import Dapps from '../components/dapps.vue'
 import Dappcategory from '../components/dappcategory.vue'
 import Smartontract from '../components/smartcontracts.vue'
 
+
 export default {
   name: 'Home',
   components: {
     Hero,
     Dapps,
     Dappcategory,
-    Smartontract
-
+    Smartontract,
   }  
 }
 </script>
