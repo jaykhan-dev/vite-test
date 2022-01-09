@@ -1,7 +1,5 @@
 <template>
-<Slide>
-  <a href="#"><span>Home</span></a>
-</Slide>
+
 
 <header class="lg:flex sm:grid bg-white dark:bg-black dark:text-white dark:duration-300 justify-center w-full py-8">
 
@@ -14,20 +12,20 @@
           </div>        
         </router-link>
 
-        <router-link to="/blog" class="hover:text-green-600 duration-300">
+        <!-- 
+          <router-link to="/blog" class="hover:text-green-600 duration-300">
           <div class="font-bold uppercase mx-2">
             Blog
           </div>        
         </router-link>
+        -->
+        
 
       </div>
       
       <div>
         <i class="fas fa-search text-2xl"></i>
       </div>
-
-      
-
       <!--
         <input 
       type="text" 

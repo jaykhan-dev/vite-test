@@ -1,7 +1,7 @@
 <template>
   <div class="" :class="isDark ? 'dark' : ''">
    <Hero />
-   <Dapps />
+
    <Dappcategory />
    <Smartontract />
   </div>

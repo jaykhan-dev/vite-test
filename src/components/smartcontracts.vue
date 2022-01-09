@@ -1,61 +1,35 @@
 <template>
-    <div class="flex justify-center dark:bg-black text-white dark:duration-300 py-20 p-2">
+    <div class="flex justify-center dark:bg-black text-white dark:duration-300 p-2">
         <div class="border border-gray-700 rounded-lg bg-gradient-to-r from-gray-800 to-gray-900 p-4 shadow-2xl">
-            <div class="grid lg:grid-cols-2 sm:grid-cols-1 p-4">
-                <div>
+            <div class="p-4 items-center">
+                <div class="p-2 items-center">
                     <p class="uppercase">Smart contracts</p>
-                    <h1 class="font-bold lg:text-6xl text-4xl mt-8">Transparent trade<br />
-                    without intermediaries</h1>
-                    <p class="text-2xl mt-8">Smart contracts have changed the game <br />
-                    when it comes to business and banking without the<br />
-                    the need to go through a third party.  This gives the <br />
-                    owners full control over how they conduct business.</p>
+                    <a href="" class="flex items-center p-2">
+                        <img 
+                            src="../assets/algo.png" 
+                            alt=""
+                            width="50"
+                            height=""
+                            class="">
+                        <h1 class="font-bold p-2 lg:text-6xl text-4xl mt-8">Algorand</h1>                  
+                    </a> 
+                    
+                    <h2 class="text-2xl mt-8">Written with PyTEAL because it's future proof</h2>
+                    <div class="">
+                        <br>
+                        • Python is among the most popular programming languages, along with JavaScript, Java, and C.
+                        <br><br>
+                        • The Blockchain is a radical shift in finance and trade, one which is disruptive, anarchistic, but also incredibly useful.
+                    </div>
                 </div>
                 <div class="grid place-items-center py-8" id="smart-contract-bg">
-                    <img 
-                        src="../assets/smart-contract.png" 
-                        alt=""
-                        width="400"
-                        height="400">
+                    
                 </div>
             </div>
-            <div class="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-4 place-items-center uppercase py-12 text-center">
-                <a href="" class="border border-gray-600 shadow-2xl rounded-lg p-2 w-1/2 grid place-items-center">
-                    <img 
-                        src="../assets/icons_ethereum.png" 
-                        alt=""
-                        width="75"
-                        height=""
-                        class="my-2">
-                     Ethereum
-                </a>
-                <a href="" class="border border-gray-600 shadow-2xl rounded-lg p-2 w-1/2 grid place-items-center">
-                    <img 
-                        src="../assets/algo.png" 
-                        alt=""
-                        width="75"
-                        height=""
-                        class="my-2">
-                    Algorand
-                </a>
-                <a href="" class="border border-gray-600 shadow-2xl rounded-lg p-2 w-1/2 grid place-items-center">
-                    <img 
-                        src="../assets/icons_ada.png" 
-                        alt=""
-                        width="75"
-                        height=""
-                        class="my-2">
-                    Cardano
-                </a>
-                <a href="" class="border border-gray-600 shadow-2xl rounded-lg p-2 w-1/2 grid place-items-center">
-                    <img 
-                        src="../assets/cosmos.png" 
-                        alt=""
-                        width="75"
-                        height=""
-                        class="my-2">
-                    Cosmos
-                </a>
+            <div class="uppercase py-12 text-center">
+                
+                            
+               
             </div>
         </div>        
     </div>

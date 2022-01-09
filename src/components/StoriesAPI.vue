@@ -3,8 +3,7 @@
 
   <div class="">
     <h1 class="font-bold text-4xl my-4 text-center">Character Strategies</h1>
-  </div>
-  
+  </div>  
     
   <div class="flex justify-center">
         
