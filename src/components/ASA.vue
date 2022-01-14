@@ -12,9 +12,9 @@
             </div>
             
             <div class="flex font-bold tracking-wide">                
-                <button class="p-2 m-2 bg-gray-200 rounded-lg hover:bg-black duration-300 text-black text-sm uppercase tracking-wide font-bold" type="button">TestNet</button>
-                <button class="p-2 m-2 bg-gray-200 rounded-lg hover:bg-black duration-300 text-black text-sm uppercase tracking-wide font-bold" type="button">BetaNet</button>
-                <button class="p-2 m-2 bg-gray-200 rounded-lg hover:bg-black duration-300 text-black text-sm uppercase tracking-wide font-bold" type="button">MainNet</button>
+                <button class="p-2 m-2 bg-gray-900 rounded-lg hover:bg-blue-500 duration-300 text-white text-sm uppercase tracking-wide font-bold" type="button">TestNet</button>
+                <button class="p-2 m-2 bg-gray-900 rounded-lg hover:bg-blue-500 duration-300 text-white text-sm uppercase tracking-wide font-bold" type="button">BetaNet</button>
+                <button class="p-2 m-2 bg-gray-900 rounded-lg hover:bg-blue-500 duration-300 text-white text-sm uppercase tracking-wide font-bold" type="button">MainNet</button>
                 <div class="bg-blue-500 p-8 rounded-full"></div>               
             </div>
             
@@ -27,7 +27,7 @@
                 <p class="p-2">copy</p>
                 <p class="p-2">QR</p>
             </div>
-            <div class="dark:bg-black border dark:border-gray-800 dark:text-blue-400 text-white bg-gray-500 p-2 rounded-lg flex items-center">
+            <div class="dark:bg-black border dark:border-gray-800 dark:text-blue-400 text-white bg-gray-800 p-2 rounded-lg flex items-center">
                 <h1 class="font-bold text-sm uppercase mx-2">Account Balance: </h1>
                 <h1 class="font-bold tracking-wide">10 Algos</h1>
             </div>
@@ -44,7 +44,7 @@
             <div class="p-2 border dark:border-gray-800 dark:bg-black bg-gray-300 rounded-lg">
                 <div class="flex justify-between items-center">
                     <h1 class="text-2xl font-bold tracking-wide">ID:132464875</h1>
-                    <h2 class="text-sm uppercase font-mono bg-blue-500 p-2 m-2 rounded-lg">Options</h2>
+                    <h2 class="text-sm text-white uppercase font-mono bg-blue-500 p-2 m-2 rounded-lg">Options</h2>
                 </div>
                 <div class="bg-gray-200">
                     <img src="../assets/vision-gray.png" alt="" width="300" height="300" class="">
@@ -55,29 +55,29 @@
                     <div class="grid grid-cols-2 gap-2">
                         <!--GRID 1-->
                         <div>
-                            <h2 class="text-sm font-bold font-mono uppercase">Manager</h2>
-                            <div class="p-2 bg-gray-700 rounded-lg text-white overflow-hidden">
+                            <h2 class="text-sm font-bold font-mono uppercase text-center">Manager</h2>
+                            <div class="p-2 bg-gray-700 rounded-lg text-white overflow-hidden text-sm font-mono tracking-widest">
                                 AXXM6HKUG55HZYNCGGXZFML63J6OQU57XWVE7TEWDNJIRIUIR5NR3Q64O4
                             </div>
                         </div>
                         <!--GRID 2-->
                         <div>
-                            <h2 class="text-sm font-bold font-mono uppercase">Reserve</h2>
-                            <div class="p-2 bg-gray-700 rounded-lg text-white overflow-hidden">
+                            <h2 class="text-sm font-bold font-mono uppercase text-center">Reserve</h2>
+                            <div class="p-2 bg-gray-700 rounded-lg text-white overflow-hidden text-sm font-mono tracking-widest">
                                 AXXM6HKUG55HZYNCGGXZFML63J6OQU57XWVE7TEWDNJIRIUIR5NR3Q64O4
                             </div>
                         </div>
                         <!--GRID 3-->
                         <div>
-                            <h2 class="text-sm font-bold font-mono uppercase">Freeze</h2>
-                            <div class="p-2 bg-gray-700 rounded-lg text-white overflow-hidden">
+                            <h2 class="text-sm font-bold font-mono uppercase text-center">Freeze</h2>
+                            <div class="p-2 bg-gray-700 rounded-lg text-white overflow-hidden text-sm font-mono tracking-widest">
                                 AXXM6HKUG55HZYNCGGXZFML63J6OQU57XWVE7TEWDNJIRIUIR5NR3Q64O4
                             </div>
                         </div>
                         <!--GRID 4-->
                         <div>
-                            <h2 class="text-sm font-bold font-mono uppercase">Clawback</h2>
-                            <div class="p-2 bg-gray-700 rounded-lg text-white overflow-hidden">
+                            <h2 class="text-sm font-bold font-mono uppercase text-center">Clawback</h2>
+                            <div class="p-2 bg-gray-700 rounded-lg text-white overflow-hidden text-sm font-mono tracking-widest">
                                 AXXM6HKUG55HZYNCGGXZFML63J6OQU57XWVE7TEWDNJIRIUIR5NR3Q64O4
                             </div>
                         </div>
