@@ -1,11 +1,23 @@
 <template>
 <div :class="isDark ? 'dark' : ''">
-  <div class="dark:bg-black bg-white dark:text-white duration-300 fixed bottom-0 w-full flex justify-evenly items-center p-2">
+  <div class="z-50 dark:bg-black bg-white dark:text-white duration-300 fixed bottom-0 w-full flex justify-evenly items-center p-2">
     <div class="flex items-center">
       <router-link to="/asa">
-        <p class="text-center uppercase font-bold mx-4 hover:text-green-500 duration-300">Assets</p>
+        <p class="text-center uppercase font-bold mx-4 p-2 hover:text-green-500 duration-300">Assets</p>
       </router-link>
       
+      
+      <div v-for="(value, key) in crypto" :key='key' class="p-2"><b>ALGO:</b>{{value}}</div>
+      
+      <router-link to="/" class="hover:text-green-600 duration-300">
+          <div class="font-bold uppercase mx-2">
+            Home
+          </div>        
+        </router-link>
+        
+    </div>
+
+    <div class="flex">
       <button
       type="button"
         @click="isDark = !isDark"
@@ -13,18 +25,14 @@
           <i class="fas fa-moon shadow-2xl text-2xl z-100 hover:text-blue-500 duration-300 dark:hidden block"></i>
           <i class="fas fa-sun shadow-2xl text-2xl z-100 hover:text-blue-500 duration-300 dark:block hidden"></i>
       </button>
-      <div v-for="(value, key) in crypto" :key='key' class="p-2"><b>ALGO:</b>{{value}}</div>
+
       <div class="p-2">
         <i class="fas fa-search text-2xl"></i>
       </div>
-      <router-link to="/" class="hover:text-green-600 duration-300">
-          <div class="font-bold uppercase mx-2">
-            Home
-          </div>        
-        </router-link>
+      <div class=""><i class="far fa-user-circle dark:text-white text-2xl m-2"></i></div>
     </div>
     
-    <Footer />
+
   </div>
 
   <Navigation />

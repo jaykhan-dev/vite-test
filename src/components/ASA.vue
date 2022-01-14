@@ -18,7 +18,7 @@
                 <button class="p-2 m-2 bg-green-600 rounded-lg hover:bg-blue-500 duration-300 text-white text-sm uppercase tracking-wide font-bold" type="button">TestNet</button>
                 <button class="p-2 m-2 bg-gray-100 rounded-lg hover:bg-blue-500 duration-300 text-black text-sm uppercase tracking-wide font-bold" type="button">BetaNet</button>
                 <button class="p-2 m-2 bg-gray-100 rounded-lg hover:bg-blue-500 duration-300 text-black text-sm uppercase tracking-wide font-bold" type="button">MainNet</button>
-                <div class=""><i class="far fa-user-circle dark:text-white text-4xl"></i></div>               
+           
             </div>
             
         </div>
