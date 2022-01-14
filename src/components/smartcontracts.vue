@@ -34,11 +34,6 @@
             </div>
         </div>        
     </div>
-
-    <div id="dark-bg" class="h-96 9y-20">
-        
-    </div>
-
 </template>
 
 <script>
@@ -46,11 +41,5 @@
 </script>
 
 <style>
-#dark-bg {
-    background-image: url('../assets/night-landscape-wide-01.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-}
+
 </style>

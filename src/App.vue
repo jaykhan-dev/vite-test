@@ -1,18 +1,33 @@
 <template>
 <div :class="isDark ? 'dark' : ''">
-  <div class="h-8 bg-sky-500 fixed top-0 w-full flex justify-between items-center p-2">
-    <p class="text-center uppercase font-bold mx-4">Prototype</p>
-    <button
-    type="button"
-      @click="isDark = !isDark"
-      class="">
-        <i class="fas fa-yin-yang shadow-2xl text-2xl z-100 hover:text-white duration-300"></i>
-    </button>
-    <div v-for="(value, key) in crypto" :key='key'><b>BITCOIN:</b>{{value}}</div>    
+  <div class="dark:bg-black bg-white dark:text-white duration-300 fixed bottom-0 w-full flex justify-evenly items-center p-2">
+    <div class="flex items-center">
+      <router-link to="/asa">
+        <p class="text-center uppercase font-bold mx-4">MINT PROTOTYPE</p>
+      </router-link>
+      
+      <button
+      type="button"
+        @click="isDark = !isDark"
+        class="p-2">
+          <i class="fas fa-yin-yang shadow-2xl text-2xl z-100 hover:text-white duration-300"></i>
+      </button>
+      <div v-for="(value, key) in crypto" :key='key' class="p-2"><b>ALGO:</b>{{value}}</div>
+      <div class="p-2">
+        <i class="fas fa-search text-2xl"></i>
+      </div>
+      <router-link to="/" class="hover:text-green-600 duration-300">
+          <div class="font-bold uppercase mx-2">
+            Home
+          </div>        
+        </router-link>
+    </div>
+    
+    <Footer />
   </div>
- 
+
   <Navigation />
-  <Footer />
+  
 </div>
   
 </template>
@@ -36,7 +51,7 @@ export default {
   },
   mounted() {
     axios
-    .get('https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD')
+    .get('https://min-api.cryptocompare.com/data/price?fsym=ALGO&tsyms=USD')
     .then(response => (this.crypto = response.data))
     .catch(error => console.log(error))
   },

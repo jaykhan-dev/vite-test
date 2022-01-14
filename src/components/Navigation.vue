@@ -6,12 +6,6 @@
   <nav class="uppercase font-bold p-2 lg:w-3/4 md:w-full sm:w-full flex lg:justify-between justify-center items-center">
       
       <div class="flex">
-        <router-link to="/" class="hover:text-green-600 duration-300">
-          <div class="font-bold uppercase mx-2">
-            Home
-          </div>        
-        </router-link>
-
         <!-- 
           <router-link to="/blog" class="hover:text-green-600 duration-300">
           <div class="font-bold uppercase mx-2">
@@ -19,13 +13,9 @@
           </div>        
         </router-link>
         -->
-        
-
       </div>
       
-      <div>
-        <i class="fas fa-search text-2xl"></i>
-      </div>
+
       <!--
         <input 
       type="text" 

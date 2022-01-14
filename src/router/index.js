@@ -6,6 +6,7 @@ import Strategy from '../views/Strategy.vue'
 import StrategyTopic from '../components/StrategyTopic.vue'
 import Blog from '../views/Blog.vue'
 import BlogPage from '../components/BlogPage.vue'
+import ASA from '../components/ASA.vue'
 
 
 const routes = [
@@ -15,7 +16,8 @@ const routes = [
     { path: '/strategy', name: 'Strategy', component: Strategy },
     { path: '/strategytopic/:id', name: 'StrategyTopic', component: StrategyTopic },
     { path: '/blog', name: 'Blog', component: Blog},
-    { path: '/blog/:id', name: 'BlogPage', component: BlogPage}
+    { path: '/blog/:id', name: 'BlogPage', component: BlogPage},
+    { path: '/asa', name: 'ASA', component: ASA },
 ]
 
 const router = createRouter({
