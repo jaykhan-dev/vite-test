@@ -47,7 +47,7 @@
                     <h2 class="text-sm uppercase font-mono bg-blue-500 p-2 m-2 rounded-lg">Options</h2>
                 </div>
                 <div class="bg-gray-200">
-                    <img src="src/assets/vision-gray.png" alt="" width="300" height="300" class="">
+                    <img src="../assets/vision-gray.png" alt="" width="300" height="300" class="">
                 </div>
                 <div>
                     <h1 class="text-center w-full text-2xl font-bold tracking-wide my-2">Asset title</h1>
