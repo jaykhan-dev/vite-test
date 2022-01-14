@@ -3,14 +3,15 @@
   <div class="dark:bg-black bg-white dark:text-white duration-300 fixed bottom-0 w-full flex justify-evenly items-center p-2">
     <div class="flex items-center">
       <router-link to="/asa">
-        <p class="text-center uppercase font-bold mx-4">MINT PROTOTYPE</p>
+        <p class="text-center uppercase font-bold mx-4 hover:text-green-500 duration-300">Assets</p>
       </router-link>
       
       <button
       type="button"
         @click="isDark = !isDark"
         class="p-2">
-          <i class="fas fa-yin-yang shadow-2xl text-2xl z-100 hover:text-white duration-300"></i>
+          <i class="fas fa-moon shadow-2xl text-2xl z-100 hover:text-blue-500 duration-300 dark:hidden block"></i>
+          <i class="fas fa-sun shadow-2xl text-2xl z-100 hover:text-blue-500 duration-300 dark:block hidden"></i>
       </button>
       <div v-for="(value, key) in crypto" :key='key' class="p-2"><b>ALGO:</b>{{value}}</div>
       <div class="p-2">

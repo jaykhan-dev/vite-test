@@ -50,11 +50,11 @@
     -->
     
     <div class="">
-        <i class="fab fa-twitter mx-2 text-4xl hover:text-sky-100"></i>
-        <i class="fab fa-github mx-2 text-4xl hover:text-sky-100"></i>
-        <i class="fab fa-discord mx-2 text-4xl hover:text-sky-100"></i>
-        <i class="fab fa-youtube mx-2 text-4xl hover:text-red-100"></i>
-        <i class="fab fa-instagram mx-2 text-4xl hover:text-red-100"></i>
+        <i class="fab fa-twitter mx-2 text-2xl"></i>
+        <i class="fab fa-github mx-2 text-2xl"></i>
+        <i class="fab fa-discord mx-2 text-2xl"></i>
+        <i class="fab fa-youtube mx-2 text-2xl"></i>
+        <i class="fab fa-instagram mx-2 text-2xl"></i>
     </div>
     
 </div>

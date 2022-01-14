@@ -2,7 +2,7 @@
 <div class="lg:h-screen dark:bg-black dark:text-white text-black flex justify-center">
     <div class="lg:w-3/4">
         <!--SECTION HEADER-->
-        <h1 class="text-6xl font-bold text-center">Create an Algorand Asset</h1>
+        <h1 class="text-6xl font-bold text-center">Asset</h1>
         <div class="flex justify-between p-2 w-full">
             <div>
                 <input type="text" placeholder="search track" class="text-center rounded-lg bg-gray-100 mx-2 h-full">
