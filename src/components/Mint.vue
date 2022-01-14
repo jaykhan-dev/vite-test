@@ -19,13 +19,15 @@
             
             <div class="grid place-items-center p-4 border-gray-900">
                 <input type="text" placeholder="Name" class="text-4xl font-bold text-center tracking-wide uppercase dark:bg-black my-2 p-2 w-full"><br>
-                <h1>Upload image</h1>
-                <img src="../assets/blue-painting.jpg" alt="" class="bg-gray-100">
+                <label for="">Image</label>
+                <input type="file" class="text-2xl tracking-wide uppercase dark:bg-black w-full border p-2 m-2 bg-gray-200"><br>
+                <label for="">Track</label>
+                <input type="file" class="text-2xl tracking-wide uppercase dark:bg-black w-full border p-2 m-2 bg-gray-200"><br>
                 <div class="flex justify-between">
                     <input type="text" placeholder="Unit" class="text-2xl tracking-wide uppercase dark:bg-black w-full border p-2 m-2"><br>
                     <input type="text" placeholder="Total" class="text-2xl tracking-wide uppercase dark:bg-black w-full border p-2 m-2"><br>
                 </div>
-                <button type="button" class="w-full bg-green-600 p-2 text-white font-bold tracking-wide hover:bg-blue-600 duration-300">MINT</button>
+                <button type="button" class="w-full bg-red-600 p-2 text-white font-bold tracking-wide hover:bg-blue-600 duration-300">MINT</button>
             </div>
         </div>
     </div>
