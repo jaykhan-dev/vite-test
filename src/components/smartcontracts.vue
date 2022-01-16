@@ -3,7 +3,7 @@
         <div class="rounded-lg p-4 shadow-2xl">
             <div class="p-4 flex justify-center items-center">
                 <div class="p-2 grid place-items-center">
-                    <p class="uppercase p-2 text-center">Smart contracts</p>
+                    <p class="uppercase p-2 text-center">Blockchain</p>
                     <a href="" class="flex items-center p-2">
                         <img 
                             src="../assets/algo.png" 
@@ -20,12 +20,12 @@
                         <div class="">
                             <i class="fab fa-python text-6xl text-blue-600"></i>
                             <h1 class="text-4xl font-bold tracking-wide my-2">Python</h1>
-                            <p class="lg:w-3/4">Python is future proof because of it's easy syntax, huge developer community, and smooth developer experience.  We use it with Django and smart contracts.</p>
+                            <p class="lg:w-3/4">Python is future proof because of it's easy syntax, huge developer community, and smooth developer experience.  We use it with Django and smart contracts written with PyTEAL.</p>
                         </div>
                         <div class="">
                             <i class="fas fa-cube text-6xl"></i>
-                            <h1 class="text-4xl font-bold tracking-wide my-2">Blockchain</h1>
-                            <p class="lg:w-3/4">DeFi is the future of finance and conducting business on a blockchain is where the industy is heading.  We chose Algorand because of it's unique Proof-of-Stake model which solves the blockchain trilema: Scalability, Decentralization, and Security.</p>
+                            <h1 class="text-4xl font-bold tracking-wide my-2">DeFi</h1>
+                            <p class="lg:w-3/4">DeFi is the future of finance and conducting business on a blockchain is where the industy is heading.  We chose Algorand because of it's unique Pure Proof-of-Stake model which solves the blockchain trilema: Scalability, Decentralization, and Security.</p>
                         </div>
                         <div class="">
                             <i class="fas fa-leaf text-6xl text-green-600"></i>

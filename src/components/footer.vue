@@ -50,22 +50,23 @@
     -->
     <div class="grid place-items-center w-full py-0">
         <img src="../assets/e-blue-logo-white.png" alt="" width="75">
-    </div>
+    </div>    
     <div class="text-center">
         <h1 class="text-4xl font-bold tracking-widest">Eternal Blue</h1>
         <p>NFT Project on Algorand</p>
-        <p>2022. Designed by
+
+        <div class="w-full text-center my-4">
+            <i class="fab fa-github mx-2 text-2xl"></i>
+            <i class="fab fa-youtube mx-2 text-2xl"></i>
+            <i class="fab fa-instagram mx-2 text-2xl"></i>
+        </div>
+        
+        <p>Coming soon. 2022. Designed by
             <a href="https://jkhan.live" class="font-bold text-mono tracking-widest text-green-400">Jay Khan</a>
         </p>
     </div>
     
-    <div class="w-full text-center my-4">
-
-        <i class="fab fa-github mx-2 text-2xl"></i>
-
-        <i class="fab fa-youtube mx-2 text-2xl"></i>
-        <i class="fab fa-instagram mx-2 text-2xl"></i>
-    </div>
+    
     
 </div>
 <!-- 

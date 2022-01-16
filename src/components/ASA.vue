@@ -5,10 +5,10 @@
         <h1 class="text-6xl font-bold text-center">Assets</h1>
         <div class="flex justify-between p-2 w-full">
             <div>
-                <input type="text" placeholder="search track" class="text-center rounded-lg bg-gray-100 mx-2 h-full">
+
                 <router-link to="/mint">
                     <button type="button" class="p-2 border bg-green-600 rounded-lg hover:bg-blue-600 font-bold tracking-wide text-white uppercase h-full">
-                        Mint track
+                        Mint NFT
                     </button>
                 </router-link>
                     

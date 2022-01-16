@@ -1,5 +1,5 @@
 <template>
-<h1 class="text-6xl tracking-wide font-bold text-center dark:bg-black dark:text-white">Mint Track</h1>
+<h1 class="text-6xl tracking-wide font-bold text-center dark:bg-black dark:text-white">Mint NFT</h1>
 <div class="dark:bg-black dark:text-white dark:duration-300 flex justify-center lg:h-screen">
     
     <div class="grid lg:grid-cols-2 lg:w-3/4 gap-2 py-20">

@@ -8,6 +8,9 @@ import Blog from '../views/Blog.vue'
 import BlogPage from '../components/BlogPage.vue'
 import ASA from '../components/ASA.vue'
 import Mint from '../components/Mint.vue'
+import Search from '../components/Search.vue'
+import Marketplace from '../components/Marketplace.vue'
+import Wallet from '../components/Wallet.vue'
 
 const routes = [
     { path: '/', name: 'Home', component: Home},
@@ -19,6 +22,9 @@ const routes = [
     { path: '/blog/:id', name: 'BlogPage', component: BlogPage},
     { path: '/asa', name: 'ASA', component: ASA },
     { path: '/mint', name: 'Mint', component: Mint },
+    { path: '/search', name: 'Search', component: Search },
+    { path: '/marketplace', name: 'Marketplace', component: Marketplace },
+    { path: '/wallet', name: 'Wallet', component: Wallet },
 ]
 
 const router = createRouter({
