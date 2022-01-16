@@ -1,8 +1,8 @@
 <template>
-<div class="flex justify-center dark:bg-black dark:text-white dark:duration-300 py-20">
+<div class="dark:bg-black dark:text-white dark:duration-300">
     <div class="lg:w-3/4 w-full">
-        <h1 class="text-6xl font-bold tracking-wide text-center py-20">Featured Tracks</h1>
-        <div class="grid grid-cols-4">
+        <h1 class="text-6xl font-bold tracking-wide text-center">Featured Tracks</h1>
+        <div class="grid grid-cols-2">
             <!--GRID 1-->
             <div class="flex-col justify-between items-center p-2 rounded-lg bg-blur-sm rounded-lg">
                 <div class="bg-blue-900 h-64">

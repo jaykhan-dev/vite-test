@@ -39,7 +39,7 @@
 -->
 
 
-<div class="dark:bg-black flex justify-center dark:text-white p-2">
+<div class="bg-gradient-to-r from-blue-700 to-blue-800 flex flex-col justify-center text-white p-2" id="footer-bg">
     <!-- 
         <div class="flex">
             <input type="text"
@@ -48,11 +48,21 @@
             <div class="p-4 grid place-items-center border border-gray-500"><i class="fas fa-arrow-right"></i></div>
         </div>
     -->
+    <div class="grid place-items-center w-full py-0">
+        <img src="../assets/e-blue-logo-white.png" alt="" width="75">
+    </div>
+    <div class="text-center">
+        <h1 class="text-4xl font-bold tracking-widest">Eternal Blue</h1>
+        <p>NFT Project on Algorand</p>
+        <p>2022. Designed by
+            <a href="https://jkhan.live" class="font-bold text-mono tracking-widest text-green-400">Jay Khan</a>
+        </p>
+    </div>
     
-    <div class="">
-        <i class="fab fa-twitter mx-2 text-2xl"></i>
+    <div class="w-full text-center my-4">
+
         <i class="fab fa-github mx-2 text-2xl"></i>
-        <i class="fab fa-discord mx-2 text-2xl"></i>
+
         <i class="fab fa-youtube mx-2 text-2xl"></i>
         <i class="fab fa-instagram mx-2 text-2xl"></i>
     </div>
@@ -72,4 +82,10 @@
 li {
     cursor: pointer;
 }
+/*
+#footer-bg {
+    background-image: url('../assets/cool-cloud.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}*/
 </style>

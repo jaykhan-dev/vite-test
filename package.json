@@ -9,7 +9,8 @@
   "dependencies": {
     "axios": "^0.24.0",
     "vue": "^3.2.23",
-    "vue-router": "^4.0.12"
+    "vue-router": "^4.0.12",
+    "vue-svg-loader": "^0.16.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.10.2",
