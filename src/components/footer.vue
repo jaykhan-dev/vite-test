@@ -52,7 +52,7 @@
         <img src="../assets/e-blue-logo-white.png" alt="" width="75">
     </div>    
     <div class="text-center">
-        <h1 class="text-4xl font-bold tracking-widest">Eternal Blue</h1>
+        <h1 class="text-4xl font-bold tracking-widest">BlueAlgo</h1>
         <p>NFT Project on Algorand</p>
 
         <div class="w-full text-center my-4">

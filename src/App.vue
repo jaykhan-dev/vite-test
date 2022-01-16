@@ -1,6 +1,6 @@
 <template>
 <div :class="isDark ? 'dark' : ''">
-  <div class="z-50 bg-sky-500 text-white duration-300 fixed top-0 w-full flex justify-evenly items-center p-2">
+  <div class="z-50 bg-blue-600 text-white duration-300 fixed top-0 w-full flex justify-evenly items-center p-2">
     <div class="flex items-center">      
         <div v-for="(value, key) in crypto" :key='key' class="p-2 font-bold"><b>ALGO:</b>{{value}}</div>
         <router-link to="/asa">

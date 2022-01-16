@@ -3,7 +3,7 @@
     <div class="flex justify-center dark:bg-black dark:text-white dark:duration-300" id="hero-cta">
         <div class="mt-20">
             <p class="uppercase my-4">NFT Project</p>
-            <h1 class="lg:text-8xl text-6xl font-bold" id="main-title">Eternal Blue</h1>
+            <h1 class="lg:text-8xl text-6xl font-bold" id="main-title">BlueAlgo</h1>
             <p class="mt-4 text-4xl">On the Algorand blockchain</p>
             <div class="my-2">
                 <p class="">Buy NFT Music packages</p>
