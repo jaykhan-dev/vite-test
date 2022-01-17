@@ -10,7 +10,7 @@
 
                     </div>
                     <h1 class="text-2xl font-bold my-2">box 1</h1>
-                    <p>This is a bunch of text that I am writing to test to see if the masonry grid is working</p>
+                    <p>Description of the asset</p>
                     <div>
                         <h2>Artist Name</h2>
                         <h3>@artist_handle</h3>
@@ -27,7 +27,7 @@
 
                 </div>
                 <h1 class="text-2xl font-bold my-2">box 2</h1>
-                <p>This is a bunch of text that I am writing to test to see if the masonry grid is working</p>
+                <p>Description of the asset</p>
                 <div>
                     <h2>Artist Name</h2>
                     <h3>@artist_handle</h3>
@@ -44,7 +44,7 @@
 
                 </div>
                 <h1 class="text-2xl font-bold my-2">box 3</h1>
-                <p>This is a bunch of text that I am writing to test to see if the masonry grid is working and now im going to write a bunch gibberish that does only thin only</p>
+                <p>Description of the asset</p>
                 <div>
                     <h2>Artist Name</h2>
                     <h3>@artist_handle</h3>
@@ -57,7 +57,7 @@
 
                 </div>
                 <h1 class="text-2xl font-bold my-2">box 4</h1>
-                <p>This is a bunch of text that I am writing to test to see if the masonry grid is workingdskfhaskdfj;aksd fasdfkhasdf asdgkjhasga sdgkja;hsdg asgkjahsdg asdgasdg asdg;kbasdg asdgk</p>
+                <p>Description of the asset</p>
                 <div>
                     <h2>Artist Name</h2>
                     <h3>@artist_handle</h3>
@@ -70,7 +70,7 @@
 
                 </div>
                 <h1 class="text-2xl font-bold my-2">box 5</h1>
-                <p>This is a bunch of text that I am writing to test to see if the masonry grid is working</p>
+                <p>Description of the asset</p>
                 <div>
                     <h2>Artist Name</h2>
                     <h3>@artist_handle</h3>
