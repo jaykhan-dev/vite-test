@@ -4,7 +4,7 @@
         <h1 class="text-6xl font-bold text-center">Welcome to the Marketplace</h1>
         <div class="lg:masonry gap-2 my-20">
 
-            <router-link to="/nftpage">
+            <router-link to="/productpage">
                 <div class="break-inside border border-blue-400 rounded-lg border-opacity-20 hover:border-opacity-100 duration-300 p-2 m-2">
                     <div class="bg-blue-600 w-full h-64">
 
