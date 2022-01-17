@@ -6,17 +6,17 @@
             <h1 class="lg:text-8xl text-6xl font-bold" id="main-title">BlueAlgo</h1>
             <p class="mt-4 text-4xl">On the Algorand blockchain</p>
             <div class="my-2">
-                <p class="">Buy NFT Music packages</p>
-                <p class="">No middle men</p>
-                <p class="">Invest directly with the artist</p>
+                <p class="">Buy NFT's</p>
+                <p class="">Earn Rewards</p>
+                <p class="">No middle-men</p>
             </div>
 
             <div>
                 <router-link to="/mint">                    
                     <button class="my-4 p-2 bg-green-600 text-sm uppercase font-mono font-bold tracking-wide text-white rounded-lg mx-2 hover:bg-blue-600">Mint NFT</button>
                 </router-link>
-                <router-link to="/marketplace">
-                    <button class="my-4 p-2 bg-blue-800 text-sm uppercase font-mono font-bold tracking-wide text-white rounded-lg hover:bg-green-600">Catalogue</button>
+                <router-link to="/wallet">
+                    <button class="my-4 p-2 bg-blue-800 text-sm uppercase font-mono font-bold tracking-wide text-white rounded-lg hover:bg-green-600">Connect Wallet</button>
                 </router-link>
                 
             </div>

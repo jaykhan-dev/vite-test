@@ -14,7 +14,10 @@
                     <div>
                         <h2>Artist Name</h2>
                         <h3>@artist_handle</h3>
-                        <button type="button">10ALGO</button>
+                        <div class="flex justify-between">
+                            <button type="button" class="text-2xl font-bold my-2 tracking-wide">10ALGO</button>
+                            <button type="button" class="bg-blue-500 p-2 w-1/4 rounded-lg text-white font-bold tracking-wide font-mono hover:bg-green-600 duration-300">BUY</button>
+                    </div>
                     </div>
                 </div>
             </router-link>            
@@ -28,7 +31,11 @@
                 <div>
                     <h2>Artist Name</h2>
                     <h3>@artist_handle</h3>
-                    <button type="button">10ALGO</button>
+                    <div class="flex justify-between">
+                        <button type="button" class="text-2xl font-bold my-2 tracking-wide">10ALGO</button>
+                        <button type="button" class="bg-gray-500 p-2 w-1/4 rounded-lg text-white font-bold tracking-wide font-mono"> BID</button>
+                    </div>
+                    
                 </div>
             </div>
 
@@ -41,7 +48,7 @@
                 <div>
                     <h2>Artist Name</h2>
                     <h3>@artist_handle</h3>
-                    <button type="button">10ALGO</button>
+                    <button type="button" class="text-2xl font-bold my-2 tracking-wide">10ALGO</button>
                 </div>
             </div>
 
@@ -54,7 +61,7 @@
                 <div>
                     <h2>Artist Name</h2>
                     <h3>@artist_handle</h3>
-                    <button type="button">10ALGO</button>
+                    <button type="button" class="text-2xl font-bold my-2 tracking-wide">10ALGO</button>
                 </div>
             </div>
 
@@ -67,7 +74,7 @@
                 <div>
                     <h2>Artist Name</h2>
                     <h3>@artist_handle</h3>
-                    <button type="button">10ALGO</button>
+                    <button type="button" class="text-2xl font-bold my-2 tracking-wide">10ALGO</button>
                 </div>
             </div>
         </div>
@@ -76,3 +83,12 @@
 
 </div>
 </template>
+
+<script>
+
+</script>
+
+<style>
+
+</style>
+

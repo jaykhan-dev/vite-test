@@ -26,12 +26,12 @@
         <div class="flex justify-between p-2">
             
             <div class="flex items-center">
-                <p class="p-2 text-2xl font-bold lg:w-full overflow-hidden">AXXM6HKUG55HZYNCGGXZFML63J6OQU57XWVE7TEWDNJIRIUIR5NR3Q64O4</p>
-                <p class="p-2">copy</p>
-                <p class="p-2">QR</p>
+                <p class="p-2 text-2xl font-bold lg:w-full overflow-hidden">Test Account Name</p>
+                <p class="p-2 text-sm uppercase tracking-wide text-blue-600">address</p>
+                <p class="p-2 text-sm uppercase tracking-wide text-blue-600">QR</p>
             </div>
-            <div class="dark:bg-black border dark:border-gray-800 dark:text-blue-400 text-white bg-gray-800 p-2 rounded-lg flex items-center">
-                <h1 class="font-bold text-sm uppercase mx-2">Account Balance: </h1>
+            <div class="dark:bg-black dark:text-blue-400 text-white bg-gray-800 p-2 rounded-lg flex items-center text-2xl font-bold tracking-wide">
+                <h1 class="font-bold uppercase mx-2">Balance: </h1>
                 <h1 class="font-bold tracking-wide">10 Algos</h1>
             </div>
         </div>

@@ -23,7 +23,7 @@
                             <p class="lg:w-3/4">Python is future proof because of it's easy syntax, huge developer community, and smooth developer experience.  We use it with Django and smart contracts written with PyTEAL.</p>
                         </div>
                         <div class="">
-                            <i class="fas fa-cube text-6xl"></i>
+                            <i class="fas fa-wallet text-6xl text-purple-600"></i>
                             <h1 class="text-4xl font-bold tracking-wide my-2">DeFi</h1>
                             <p class="lg:w-3/4">DeFi is the future of finance and conducting business on a blockchain is where the industy is heading.  We chose Algorand because of it's unique Pure Proof-of-Stake model which solves the blockchain trilema: Scalability, Decentralization, and Security.</p>
                         </div>
