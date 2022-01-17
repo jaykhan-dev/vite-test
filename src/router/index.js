@@ -11,7 +11,7 @@ import Mint from '../components/Mint.vue'
 import Search from '../components/Search.vue'
 import Marketplace from '../components/Marketplace.vue'
 import Wallet from '../components/Wallet.vue'
-import Nftpage from '../components/nftpage.vue'
+import Nftpage from '../components/Nftpage.vue'
 
 const routes = [
     { path: '/', name: 'Home', component: Home},
